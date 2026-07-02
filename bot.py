@@ -8,8 +8,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 # ==========================
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
-OPENWEATHER_API_KEY = os.environ.get("WEATHER_API_KEY")
-
+OPENWEATHER_API_KEY = os.environ.get("OPENWEATHER_API_KEY")
 # ==========================
 # Команда /start
 # ==========================
